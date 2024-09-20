@@ -1,0 +1,69 @@
+ /* styles for body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222; 
+    margin: 0;
+    padding:1%;
+  }
+  
+
+  /* Styles for emoji cards */
+  .emoji {
+    border: 3px solid #590909; 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:4px;
+    padding: 0%;
+  }
+  
+  /* Heading of emoji cards */
+  .emoji h2 {
+    order:2;
+    font-size: 1.8rem;
+    text-align: center;
+    border-bottom: 4px solid #4bddb6;
+    margin: 4px;
+  }
+  
+  /* Links in emoji cards */
+  .emoji a {
+    order: 4;
+    text-align: left;
+    text-decoration: none;
+    background-color: #6e03d2;
+    border-radius: 12px;
+    align-self:flex; 
+    margin:4px;
+    padding: 1rem;
+  }
+  
+  /* Para in emoji cards */
+  .emoji p {
+    order: 3;
+    font-weight: lighter;
+    flex-grow: 3;
+    margin: 1rem;
+  }
+  
+  /* Icons in emoji cards */
+  .icon {
+    text-align:center;
+    font-size: 4rem;
+    order: 1;
+    margin: 2rem;
+  }
+
+  /* Container for emojis card */
+  .emojis {
+    display: grid;
+    max-width: 999px; 
+    grid-template-columns: repeat(2, 1fr);
+    gap:0.8rem;    
+    margin:0;
+    padding: 0.8%;
+  }
+
+
+  
