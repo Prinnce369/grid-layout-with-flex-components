@@ -31,7 +31,7 @@ body {
   
   /* hover of emoji  */
   .emoji a {
-    text-decoration: rgb(14, 159, 137);
+    text-decoration: none;
     background-color: #4b1b65;
     color: rgb(147, 213, 234);
     padding: 1rem;
